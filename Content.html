@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:#ffffff;
+}
+
+/* Header */
+
+header{
+    padding:80px;
+    text-align:center;
+    color:rgb(168, 168, 168);
+    background:radial-gradient(
+        circle,
+        black 30%,
+        rgb(76, 76, 76) 55%,
+        black 100%
+    );
+}
+
+header h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+header h6{
+    font-size:22px;
+    letter-spacing:5px;
+    margin-top:0;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    background:linear-gradient(to right,
+    rgb(22, 22, 22),rgb(168, 168, 168));
+    padding:0 30px;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+
+.navbar a{
+    color:black;
+    text-decoration:none;
+    padding:18px 22px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    background:rgba(0,0,0,.5);
+    color:white;
+    border-radius:6px;
+}
+
+/* Main Content */
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* Main Section */
+
+.main{
+    flex:70%;
+    background:rgb(0, 0, 0);
+    padding:25px;
+    color:rgb(168, 168, 168);
+    height:550px;
+}
+
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(45, 45, 45);
+  height:80px;
+}
+/* Responsive */
+
+@media screen and (max-width:700px){
+
+.container{
+    flex-direction:column;
+}
+
+.navbar{
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+<!-- Navigation -->
+
+<div class="navbar">
+
+    <a href="/Users/admin/Desktop/Ian_Website/web pages/MyPortfolio:Home.html">Home</a>
+    <a href="/Users/admin/Desktop/Ian_Website/web pages/AboutMe.html">About Me</a>
+    <a href="/Users/admin/Desktop/Ian_Website/web pages/Contact.html">Contact</a>
+    <a href="/Users/admin/Desktop/Ian_Website/web pages/Content.html">Content</a>
+
+</div>
+
+<!-- Header -->
+
+<header>
+    <h1>Content</h1>
+    <h6><b>ABOUT ME</b></h6>
+</header>
+
+
+
+<!-- Content -->
+
+    <div class="main">
+
+<h2>My future goal is to become a Psychologist to become a Psychologist, I plan to get my doctoral degree or a Ph.D. (Doctor of Philosophy) or a Psy.D. (Doctor of Psychology). As a Psychologist, softwares like PsychoPy and PsyToolkit benefit my industry.</h3>
+
+<br>
+<h2>Software</h2>
+
+<h2> <b>PsychoPy</b> provides help to psychology by letting researchers build experiments, present stimuli, and collect data. It gives scientists tools for visual and auditory control, precise timing and measurements, and online or lab testing. PsyToolkit provides a free, web-based platform used to program, run, and analyze online cognitive-psychological experiments, behavioral research studies, and personality surveys. It offers built-in libraries of peer-reviewed questionnaires and precise reaction-time tests, allowing researchers and students to collect data globally via browser links.</p>
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+   
+</footer>
+
+</body>
+</html>
