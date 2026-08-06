@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+    /* Navigation Bar */
+
+.navbar{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    background:linear-gradient(to right,royalblue,teal);
+    padding:0 30px;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+
+.navbar a{
+    color:black;
+    text-decoration:none;
+    padding:18px 22px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    background:rgba(0,0,0,.5);
+    color:white;
+    border-radius:6px;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:#ffffff;
+}
+
+
+/* Header */
+
+header{
+    padding:80px;
+    text-align:center;
+    color:white;
+    background:radial-gradient(
+        circle,
+        MediumTurquoise 0%,
+        Teal 55%,
+        Navy 100%
+    );
+}
+
+header h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+header h6{
+    font-size:22px;
+    letter-spacing:5px;
+    margin-top:0;
+}
+
+
+/* Main Content */
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* Sidebar */
+
+.side{
+    flex:30%;
+    background:steelblue;
+    padding:25px;
+    height:550px;
+}
+
+/* Main Section */
+
+.main{
+    flex:70%;
+    background:cadetblue;
+    padding:25px;
+}
+
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: navy;
+  height:200px;
+}
+/* Responsive */
+
+@media screen and (max-width:700px){
+
+.container{
+    flex-direction:column;
+}
+
+.navbar{
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+<div class="navbar">
+
+    <a href="/Users/admin/Desktop/Ian_Website/web pages/MyPortfolio:Home.html">Home</a>
+    <a href="/Users/admin/Desktop/Ian_Website/web pages/AboutMe.html">About Me</a>
+    <a href="/Users/admin/Desktop/Ian_Website/web pages/Contact.html">Contact</a>
+    <a href="/Users/admin/Desktop/Ian_Website/web pages/Content.html">Content</a>
+
+</div>
+
+<!-- Header -->
+
+<header>
+    <h1>Ian Smith Jr</h1>
+    <h6><b>ABOUT ME</b></h6>
+</header>
+
+
+<!-- Content -->
+
+<div class="container">
+
+    <div class="side">
+
+        <h2>About Me</h2>
+
+    <img src="/Users/admin/Desktop/Ian_Website/web pages/My Picture.jpeg" alt="Trulli" width="330" height="420">
+    </div>
+
+    <div class="main">
+
+        <h2>About Me</h2>
+
+        <p>My name is Ian Smith Jr and I’m 14 years old. I was born on June 6, and I’m from Northwest Philadelphia. I used to go to Alliance for Progress Charter School and this fall I’m going to Carver Engineering & Science High School.</p>
+                 <br>
+
+        <h2>My Hobbies</h2>
+
+        <p>Some of my favorite hobbies are drawing, building LEGO sets, reading, sleeping, and fashion.</p>
+<br>
+<h2>Why I joined hidden genius</h2>
+
+<p>I joined The Hidden Genius Project because I wanted to get out of my comfort zone and learn something new. I wanted to learn some technology skills and meet new people.</p>
+
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+   
+</footer>
+
+</body>
+</html>
