@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+
+<style>
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+   background:linear-gradient(
+       135deg,
+       black  30%,
+      gold 55%,
+       black 100%
+   );
+   min-height:100vh;
+}
+
+
+nav{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   padding:20px 8%;
+
+
+   background:linear-gradient(
+       90deg,
+       yellow 30%,
+       gold 50%,
+       orange 100%
+   );
+
+
+   box-shadow:0 4px 20px rgba(255,212,0,.35);
+}
+
+
+.logo{
+   font-size:30px;
+   font-weight:bold;
+   color:black;
+}
+
+
+.logo span{
+   color:white;
+}
+
+
+nav ul{
+   display:flex;
+   list-style:none;
+   gap:20px;
+}
+
+
+nav ul li a{
+   text-decoration:underline;
+   color:black;
+   padding:12px 18px;
+   border-radius:6px;
+   font-weight:bold;
+   transition:.3s;
+}
+
+
+nav ul li a:hover{
+   background:black;
+   color:#FFD400;
+}
+
+
+.portfolio{
+   height:100vh;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+
+
+.portfolio-box{
+   width: 1000px;
+   max-width:90%;
+   min-height:500px;
+   padding:100px 80px;
+   background:black;
+   text-align:center;
+  
+
+
+   box-shadow:
+       0 0 10px #FFD400,
+       0 0 20px #FFD400,
+       0 0 35px #FFD400,
+       0 0 60px rgba(255,212,0,.8);
+}
+
+
+h1{
+   color:#FFD400;
+   font-size:90px;
+   font-family:"georgia", cursive;
+}
+
+
+p{
+   color:white;
+   margin:25px 0 45px;
+   font-size:32px;
+}
+
+
+.btn{
+   display:inline-block;
+   background:#FFD400;
+   color:black;
+   text-decoration:none;
+   padding:30px 100px;
+   border-radius:6px;
+   font-size:24px;
+   font-weight:bold;
+   transition:0.3s;
+}
+
+
+.btn:hover{
+   background:rgb(221, 174, 2);
+   color:#000000;
+   transform:scale(1.05);
+}
+</style>
+
+
+</head>
+<body>
+
+
+<nav>
+<div class="   "> <span>.</span></div>
+
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="/Users/admin/Desktop/Ian_Website/web pages/AboutMe.html">About Me</a></li>
+<li><a href="/Users/admin/Desktop/Ian_Website/web pages/Contact.html">Contact</a></li>
+<li><a href="/Users/admin/Desktop/Ian_Website/web pages/Content.html">Content</a></li>
+</ul>
+</nav>
+
+
+<section class="portfolio">
+<div class="portfolio-box">
+<h1>My Portfolio</h1>
+<p>Find out more about me.</p>
+<a href="/Users/admin/Desktop/Ian_Website/web pages/AboutMe.html" class="btn">Explore</a>
+</div>
+</section>
+
+
+</body>
+</html>
+
+
